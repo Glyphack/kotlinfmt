@@ -1,0 +1,12 @@
+[package]
+name = "kotlinfmt"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cc="*"
+
+[dependencies]
+tree-sitter = "0.20.10"
+tree-sitter-kotlin = "0.2.11"
+
